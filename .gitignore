@@ -1,0 +1,97 @@
+
+# ==============================
+# Maven
+# ==============================
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ==============================
+# Java build output
+# ==============================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ==============================
+# Spring Boot / local config
+# ==============================
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ==============================
+# Spring Tool Suite (STS)
+# ==============================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ==============================
+# NetBeans
+# ==============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# Gradle (if used)
+# ==============================
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.swp
+*.bak
+*~
