@@ -24,3 +24,9 @@ BoxuGo adalah aplikasi backend untuk pengelolaan locker sebagai tempat penyimpan
 - Menghasilkan kode pengambilan barang.
 - Memproses pengambilan barang dan denda keterlambatan.
 - Menyimpan data transaksi ke PostgreSQL.
+
+- ## Tujuan dan Penerapan
+
+BoxuGo dirancang untuk mendukung pengelolaan layanan penitipan barang sementara pada lokasi seperti stasiun, terminal, pusat perbelanjaan, masjid, dan tempat wisata. Sistem ini bertujuan membantu pengelola dalam memantau ketersediaan locker, mencatat transaksi penitipan, menentukan tarif berdasarkan ukuran locker dan durasi penyimpanan, serta memproses pengambilan barang menggunakan kode pengambilan.
+
+Dengan adanya sistem ini, proses pengelolaan penitipan barang diharapkan menjadi lebih terstruktur, efisien, dan mudah dipantau. Backend BoxuGo menyediakan REST API yang dapat diintegrasikan dengan aplikasi frontend atau sistem lain untuk mendukung layanan penitipan barang.
